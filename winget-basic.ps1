@@ -4,7 +4,7 @@
 ### Here can you add apps that you want to configure during installation ###
 # just add the app id from winget
 $graphical = @(
-    "ClamWin.ClamWin"
+    # "ClamWin.ClamWin"
 );
 
 ### These apps are installed silently for all users ###
@@ -12,13 +12,54 @@ $graphical = @(
 
 $apps = @(
     "7zip.7zip"
-    "Foxit.FoxitReader"
+    "Alacritty.Alacritty"
+    "AppWork.JDownloader"
+    "Apple.AppleSoftwareUpdate"
+    "Apple.Bonjour"
+    "Apple.BonjourPrintServices"
+    "AutoHotkey.AutoHotkey"
+    "Balena.Etcher"
+    "CPUID.HWMonitor"
+    "Cockos.REAPER"
+    "CrystalDewWorld.CrystalDiskInfo"
+    "CrystalDewWorld.CrystalDiskMark"
+    "DEVCOM.JetBrainsMonoNerdFont"
+    "Famatech.AdvancedIPScanner"
+    "Ghisler.TotalCommander"
+    "Git.Git"
+    "Gyan.FFmpeg"
+    "HandBrake.HandBrake"
+    "IrfanSkiljan.IrfanView"
+    "MartiCliment.UniGetUI"
+    "Microsoft.AppInstaller"
+    "Microsoft.DotNet.DesktopRuntime.8"
+    "Microsoft.PowerToys"
+    "Microsoft.UI.Xaml.2.8"
+    "Microsoft.VCLibs.Desktop.14"
     "Microsoft.VCRedist.2015+.x64"
     "Microsoft.VCRedist.2015+.x86"
+    "Microsoft.WSL"
+    "Microsoft.WindowsTerminal"
+    "MiniTool.PartitionWizard.Free"
+    "Neovide.Neovide"
+    "Neovim.Neovim"
+    "PeterPawlowski.foobar2000"
+    "REALiX.HWiNFO"
+    "Sonosaurus.SonoBus"
+    # "Spotify.Spotify"
+    "Starship.Starship"
+    "StevenCole.Coffee"
+    "SublimeHQ.SublimeText.4"
+    "TarasovArtyom.BatteryMode"
+    "Telegram.TelegramDesktop"
+    "VideoLAN.VLC"
+    "WinSCP.WinSCP"
+    "Zen-Team.Zen-Browser"
+    "qBittorrent.qBittorrent"
+    "voidtools.Everything"
+    "wez.wezterm"
+    "yt-dlp.yt-dlp"
     "9NCBCSZSJRSB"          # Spotify
-    "9NKSQGP7F2NH"          # Whatsapp Desktop
-    "9WZDNCRFJ3TJ"          # Netflix
-    "9P6RC76MSMMJ"          # Prime Video
     "9N7F2SM5D1LR"          # Windows HDR Calibration
     "9PMMSR1CGPWG"          # HEIF-PictureExtension
     "9MVZQVXJBQ9V"          # AV1 VideoExtension
@@ -82,13 +123,13 @@ $bloatware = @(
     #"Microsoft.ZuneMusic"          # New Media Player in Windows
 
     # Xbox Apps
-    #"Microsoft.Xbox.TCUI"
-    #"Microsoft.XboxApp"
-    #"Microsoft.XboxGameOverlay"
-    #"Microsoft.XboxSpeechToTextOverlay"
-    #"Microsoft.XboxGamingOverlay"
-    #"Microsoft.XboxIdentityProvider"
-    #"Microsoft.XboxSpeechToTextOverlay"
+    "Microsoft.Xbox.TCUI"
+    "Microsoft.XboxApp"
+    "Microsoft.XboxGameOverlay"
+    "Microsoft.XboxSpeechToTextOverlay"
+    "Microsoft.XboxGamingOverlay"
+    "Microsoft.XboxIdentityProvider"
+    "Microsoft.XboxSpeechToTextOverlay"
 
     # Threshold 2 apps
     "Microsoft.GetHelp"
@@ -112,7 +153,7 @@ $bloatware = @(
     "Microsoft.Whiteboard"
 
     # non-Microsoft
-    #"4DF9E0F8.Netflix"
+    "4DF9E0F8.Netflix"
     #"SpotifyAB.SpotifyMusic"
     "2FE3CB00.PicsArt-PhotoStudio"
     "46928bounde.EclipseManager"
