@@ -55,6 +55,7 @@ $apps = @(
     "VideoLAN.VLC"
     "WinSCP.WinSCP"
     "Zen-Team.Zen-Browser"
+    "alexx2000.DoubleCommander"
     "qBittorrent.qBittorrent"
     "voidtools.Everything"
     "wez.wezterm"
