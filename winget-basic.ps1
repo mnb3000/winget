@@ -60,7 +60,7 @@ $apps = @(
     "wez.wezterm"
     "yt-dlp.yt-dlp"
     "9NCBCSZSJRSB"          # Spotify
-    "9N7F2SM5D1LR"          # Windows HDR Calibration
+    # "9N7F2SM5D1LR"          # Windows HDR Calibration
     "9PMMSR1CGPWG"          # HEIF-PictureExtension
     "9MVZQVXJBQ9V"          # AV1 VideoExtension
     "9NCTDW2W1BH8"          # Raw-PictureExtension
